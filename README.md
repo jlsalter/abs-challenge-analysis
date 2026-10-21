@@ -4,6 +4,10 @@
 
 An analysis of all 1.42 million pitches from the 2025–26 MLB regular seasons and all 10,546 challenges from 2026, the first season of the Automated Ball-Strike (ABS) challenge system. It asks two questions: how did umpires change once their calls could be overturned, and when should a team actually challenge?
 
+**Methods:** reconciling a measurement change across two data sources · gradient-boosted classification with game-level bootstrap inference · logistic win-probability modeling · a maximum-likelihood psychometric model with a lapse rate · a fixed-point Monte Carlo simulation of 2,429 games · decision analysis under uncertainty. Python (pandas, NumPy, scikit-learn, SciPy, matplotlib).
+
+**Start here:** [`notebooks/quickstart.ipynb`](notebooks/quickstart.ipynb) loads the data and reproduces two headline results in a few cells.
+
 ## Key findings
 
 - **The called zone shrank to fit the ABS zone.** It went from 471 to 436 square inches (−35, 95% CI −40 to −29), against an ABS zone of 437. The change is a thin ring just outside the zone, largest at the bottom edge. The corners are still called tight, so balls called on in-zone pitches *rose* from 8.1% to 10.1%.
@@ -58,8 +62,10 @@ Every modeling decision and its alternatives are written up in [`METHODS.md`](ME
 ## Repository
 
 ```
+notebooks/        quickstart.ipynb: load the data and reproduce two results
 data/processed/   analysis-ready data: 740k called pitches, 10.5k challenges, 342k opportunities (see data/README.md)
 src/              fetch → build → model → figures, all in Python
+tools/            builds the quickstart notebook
 results/          every headline number (results.json, part2/results_part2.json) and the tables behind each figure
 figures/          the figures above; figures/extra/ has earlier versions and supplementary charts
 METHODS.md        each modeling decision, the alternatives, and the caveats
