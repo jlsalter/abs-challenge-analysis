@@ -1,0 +1,150 @@
+{
+  "n_called": {
+    "2025": 341154,
+    "2026": 371385
+  },
+  "n_batters_with_abs_zone": 660,
+  "ump_accuracy": {
+    "2025": 0.928,
+    "2026": 0.9345
+  },
+  "ump_accuracy_within_2in": {
+    "2025": 0.7056,
+    "2026": 0.7311
+  },
+  "strike_outside_rate": {
+    "2025": 0.0685,
+    "2026": 0.0498
+  },
+  "ball_inside_rate": {
+    "2025": 0.0807,
+    "2026": 0.1014
+  },
+  "final_accuracy_2026_after_challenges": 0.9497,
+  "median_abs_zone_height_in": 19.08,
+  "called_zone_area_sq_in": {
+    "2025": 470.6,
+    "2026": 435.9
+  },
+  "abs_zone_area_sq_in": 437.4,
+  "area_change_sq_in_ci95": [
+    -39.9,
+    -34.9,
+    -29.1
+  ],
+  "framing_spread": [
+    {
+      "year": 2025,
+      "call": "ump_strike",
+      "n_catchers": 48,
+      "sd_runs": 9.44,
+      "range_runs": [
+        -15.6,
+        31.7
+      ]
+    },
+    {
+      "year": 2026,
+      "call": "ump_strike",
+      "n_catchers": 55,
+      "sd_runs": 6.31,
+      "range_runs": [
+        -18.2,
+        11.2
+      ]
+    },
+    {
+      "year": 2026,
+      "call": "final_strike",
+      "n_catchers": 55,
+      "sd_runs": 5.27,
+      "range_runs": [
+        -13.6,
+        10.0
+      ]
+    }
+  ],
+  "k_rate": {
+    "2025": 0.2224,
+    "2026": 0.2215
+  },
+  "bb_rate": {
+    "2025": 0.081,
+    "2026": 0.0859
+  },
+  "n_challenges": 10546,
+  "overturn_rate": 0.5386,
+  "overturn_rate_by_role": {
+    "fielder": 0.5797,
+    "batter": 0.4887
+  },
+  "challenges_by_role": {
+    "fielder": 5784,
+    "batter": 4762
+  },
+  "geometry_agrees_with_official_result": 0.9971,
+  "stake_by_count": {
+    "0-0": 0.089,
+    "0-1": 0.094,
+    "0-2": 0.191,
+    "1-0": 0.145,
+    "1-1": 0.13,
+    "1-2": 0.24,
+    "2-0": 0.223,
+    "2-1": 0.192,
+    "2-2": 0.331,
+    "3-0": 0.187,
+    "3-1": 0.281,
+    "3-2": 0.606
+  },
+  "option_value_runs": {
+    "lose_2nd_to_last": {
+      "1": 0.096,
+      "2": 0.076,
+      "3": 0.066,
+      "4": 0.055,
+      "5": 0.049,
+      "6": 0.032,
+      "7": 0.016,
+      "8": 0.007,
+      "9": 0.006
+    },
+    "lose_last": {
+      "1": 0.13,
+      "2": 0.13,
+      "3": 0.119,
+      "4": 0.111,
+      "5": 0.094,
+      "6": 0.086,
+      "7": 0.071,
+      "8": 0.048,
+      "9": 0.024
+    }
+  },
+  "challenge_rate_on_wrong_calls_by_stake": {
+    "low": 0.1963,
+    "medium": 0.2242,
+    "high": 0.3402
+  },
+  "challenge_rate_on_correct_calls_by_stake": {
+    "low": 0.0104,
+    "medium": 0.0118,
+    "high": 0.0224
+  },
+  "share_of_wrong_calls_challenged": 0.25,
+  "team_top3": {
+    "CIN": 15.064,
+    "ATH": 13.338,
+    "MIN": 10.51
+  },
+  "league_avg_net_runs": 29.4,
+  "avg_missed_runs_per_team": 13.31,
+  "avg_missed_clear_calls_per_team": 100.2,
+  "team_bottom3": {
+    "TB": -8.328,
+    "CLE": -8.63,
+    "PIT": -8.721
+  },
+  "corr_net_vs_avg_stake": 0.498,
+  "corr_net_vs_overturn_rate": 0.689
+}

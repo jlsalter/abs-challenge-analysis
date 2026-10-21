@@ -1,0 +1,5 @@
+situation,calls,win_stake_pct,run_stake
+Blowout (4+ runs),82180,0.306,0.162
+"Close & late (7th+, within 1)",38796,3.701,0.167
+"Close, innings 1-6",147035,2.001,0.159
+Other,103374,1.416,0.161

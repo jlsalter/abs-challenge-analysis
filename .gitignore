@@ -1,0 +1,9 @@
+# raw pulls and intermediate files are rebuilt by run_all.sh (see data/README.md)
+data/*
+!data/README.md
+!data/processed/
+results/zone_surfaces.npz
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store

@@ -1,0 +1,385 @@
+{
+  "wp_brier": 0.1574,
+  "wp_corr_with_savant": 0.9956,
+  "wp_max_calibration_gap": 0.0152,
+  "win_stake_mean_pct": 1.641,
+  "share_of_win_stakes_in_top_10pct_calls": 0.39,
+  "share_of_run_stakes_in_top_10pct_calls": 0.314,
+  "stakes_by_situation": {
+    "Blowout (4+ runs)": {
+      "calls": 82180,
+      "win_stake_pct": 0.306,
+      "run_stake": 0.162
+    },
+    "Close & late (7th+, within 1)": {
+      "calls": 38796,
+      "win_stake_pct": 3.701,
+      "run_stake": 0.167
+    },
+    "Close, innings 1-6": {
+      "calls": 147035,
+      "win_stake_pct": 2.001,
+      "run_stake": 0.159
+    },
+    "Other": {
+      "calls": 103374,
+      "win_stake_pct": 1.416,
+      "run_stake": 0.161
+    }
+  },
+  "option_value_wins_pct": {
+    "last": {
+      "1": 1.124,
+      "2": 1.124,
+      "3": 1.099,
+      "4": 1.057,
+      "5": 0.958,
+      "6": 0.869,
+      "7": 0.776,
+      "8": 0.543,
+      "9": 0.294
+    },
+    "second": {
+      "1": 1.124,
+      "2": 1.043,
+      "3": 0.854,
+      "4": 0.695,
+      "5": 0.567,
+      "6": 0.422,
+      "7": 0.186,
+      "8": 0.094,
+      "9": 0.077
+    }
+  },
+  "perception": {
+    "batter": {
+      "sigma_in": 2.4,
+      "threshold_in_at_median_stakes": 2.17,
+      "ceiling": 0.534,
+      "converged": true,
+      "coef": {
+        "d_fav": 0.7569,
+        "log_run_stake": 0.9837,
+        "log_leverage": 0.0484,
+        "late": 0.8227,
+        "last_one": -0.2164
+      }
+    },
+    "catcher": {
+      "sigma_in": 1.54,
+      "threshold_in_at_median_stakes": 1.16,
+      "ceiling": 0.702,
+      "converged": true,
+      "coef": {
+        "d_fav": 1.1774,
+        "log_run_stake": 0.6305,
+        "log_leverage": -0.0026,
+        "late": 0.946,
+        "last_one": -0.5808
+      }
+    }
+  },
+  "option_value_simulated_wins_pct": {
+    "last": {
+      "1": 1.859,
+      "2": 1.859,
+      "3": 1.679,
+      "4": 1.515,
+      "5": 1.342,
+      "6": 1.134,
+      "7": 0.882,
+      "8": 0.521,
+      "9": 0.213
+    },
+    "second": {
+      "1": 0.931,
+      "2": 0.931,
+      "3": 0.766,
+      "4": 0.598,
+      "5": 0.363,
+      "6": 0.061,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0
+    }
+  },
+  "fixed_point_iterations": 4,
+  "sim_optimal": {
+    "wins_per_team_season": 5.09,
+    "challenges_per_team_game": 2.936,
+    "failed_per_team_game": 1.574,
+    "overturn_rate": 0.464,
+    "wins_by_role_league": {
+      "batter": 68.86,
+      "catcher": 83.89
+    },
+    "challenges_by_role_league": {
+      "batter": 6841,
+      "catcher": 7422
+    }
+  },
+  "sim_optimal_thresholds_actual_lapses": {
+    "wins_per_team_season": 3.8,
+    "challenges_per_team_game": 2.451,
+    "failed_per_team_game": 1.426,
+    "overturn_rate": 0.418,
+    "wins_by_role_league": {
+      "batter": 45.0,
+      "catcher": 68.82
+    },
+    "challenges_by_role_league": {
+      "batter": 5052,
+      "catcher": 6857
+    }
+  },
+  "sim_actual": {
+    "wins_per_team_season": 3.55,
+    "challenges_per_team_game": 2.136,
+    "failed_per_team_game": 0.956,
+    "overturn_rate": 0.552,
+    "wins_by_role_league": {
+      "batter": 43.74,
+      "catcher": 62.67
+    },
+    "challenges_by_role_league": {
+      "batter": 4728,
+      "catcher": 5651
+    }
+  },
+  "real_wins_per_team_season": 3.84,
+  "real_challenges_per_team_game": 2.127,
+  "team_sim_gap_mean_wins": 1.545,
+  "team_sim_gap_range": [
+    1.179,
+    2.028
+  ],
+  "opportunities": 341624,
+  "roles": {
+    "batter": {
+      "opportunities": 105699.0,
+      "challenges": 4649.0,
+      "overturn_rate_pct": 49.043,
+      "pct_wrong_calls_challenged": 19.256,
+      "pct_right_calls_challenged": 2.532,
+      "judgment_error_in": 2.396,
+      "acts_on_what_he_sees_pct": 53.426,
+      "sim_wins_actual": 43.74,
+      "sim_wins_best_thresholds": 45.004,
+      "sim_wins_best_thresholds_no_lapses": 68.856,
+      "sim_challenges_actual": 4728.2,
+      "sim_challenges_best": 6841.033
+    },
+    "catcher": {
+      "opportunities": 235925.0,
+      "challenges": 5686.0,
+      "overturn_rate_pct": 58.16,
+      "pct_wrong_calls_challenged": 31.414,
+      "pct_right_calls_challenged": 1.049,
+      "judgment_error_in": 1.54,
+      "acts_on_what_he_sees_pct": 70.239,
+      "sim_wins_actual": 62.673,
+      "sim_wins_best_thresholds": 68.82,
+      "sim_wins_best_thresholds_no_lapses": 83.895,
+      "sim_challenges_actual": 5650.667,
+      "sim_challenges_best": 7422.1
+    }
+  },
+  "leaderboard_n": {
+    "batter": 290,
+    "catcher": 86
+  },
+  "leaderboard_share_separable_90pct": {
+    "batter": 0.2,
+    "catcher": 0.186
+  },
+  "best_batters": [
+    {
+      "name": "Jose Altuve",
+      "win_pct_above_avg": 30.84,
+      "ci_low": 9.19,
+      "ci_high": 59.209,
+      "challenges": 36,
+      "challenges_expected_avg": 15.767,
+      "overturn_rate": 0.583
+    },
+    {
+      "name": "Sal Stewart",
+      "win_pct_above_avg": 28.51,
+      "ci_low": 10.468,
+      "ci_high": 49.97,
+      "challenges": 51,
+      "challenges_expected_avg": 23.111,
+      "overturn_rate": 0.549
+    },
+    {
+      "name": "JJ Bleday",
+      "win_pct_above_avg": 24.762,
+      "ci_low": 8.361,
+      "ci_high": 43.618,
+      "challenges": 29,
+      "challenges_expected_avg": 14.777,
+      "overturn_rate": 0.552
+    },
+    {
+      "name": "Kevin McGonigle",
+      "win_pct_above_avg": 24.189,
+      "ci_low": 5.696,
+      "ci_high": 45.586,
+      "challenges": 28,
+      "challenges_expected_avg": 21.541,
+      "overturn_rate": 0.643
+    },
+    {
+      "name": "Kyle Karros",
+      "win_pct_above_avg": 20.99,
+      "ci_low": -0.334,
+      "ci_high": 45.283,
+      "challenges": 17,
+      "challenges_expected_avg": 17.413,
+      "overturn_rate": 0.647
+    }
+  ],
+  "worst_batters": [
+    {
+      "name": "Alex Freeland",
+      "win_pct_above_avg": -10.767,
+      "ci_low": -21.622,
+      "ci_high": -1.366,
+      "challenges": 6,
+      "challenges_expected_avg": 11.442,
+      "overturn_rate": 0.667
+    },
+    {
+      "name": "Francisco Lindor",
+      "win_pct_above_avg": -14.804,
+      "ci_low": -26.298,
+      "ci_high": -6.417,
+      "challenges": 1,
+      "challenges_expected_avg": 14.665,
+      "overturn_rate": 0.0
+    },
+    {
+      "name": "Jos\u00e9 Ferm\u00edn",
+      "win_pct_above_avg": -14.996,
+      "ci_low": -27.514,
+      "ci_high": -5.96,
+      "challenges": 12,
+      "challenges_expected_avg": 13.431,
+      "overturn_rate": 0.083
+    },
+    {
+      "name": "Chandler Simpson",
+      "win_pct_above_avg": -15.892,
+      "ci_low": -29.086,
+      "ci_high": -4.81,
+      "challenges": 5,
+      "challenges_expected_avg": 12.392,
+      "overturn_rate": 0.0
+    },
+    {
+      "name": "Kazuma Okamoto",
+      "win_pct_above_avg": -20.423,
+      "ci_low": -31.853,
+      "ci_high": -10.152,
+      "challenges": 7,
+      "challenges_expected_avg": 20.08,
+      "overturn_rate": 0.286
+    }
+  ],
+  "best_catchers": [
+    {
+      "name": "Jonah Heim",
+      "win_pct_above_avg": 48.973,
+      "ci_low": 19.856,
+      "ci_high": 77.686,
+      "challenges": 105,
+      "challenges_expected_avg": 90.532,
+      "overturn_rate": 0.638
+    },
+    {
+      "name": "Hunter Goodman",
+      "win_pct_above_avg": 41.979,
+      "ci_low": 15.944,
+      "ci_high": 68.051,
+      "challenges": 118,
+      "challenges_expected_avg": 102.219,
+      "overturn_rate": 0.669
+    },
+    {
+      "name": "Joe Mack",
+      "win_pct_above_avg": 41.143,
+      "ci_low": 12.485,
+      "ci_high": 70.526,
+      "challenges": 117,
+      "challenges_expected_avg": 96.26,
+      "overturn_rate": 0.632
+    },
+    {
+      "name": "Edgar Quero",
+      "win_pct_above_avg": 38.653,
+      "ci_low": -0.175,
+      "ci_high": 84.983,
+      "challenges": 93,
+      "challenges_expected_avg": 59.493,
+      "overturn_rate": 0.495
+    },
+    {
+      "name": "Victor Caratini",
+      "win_pct_above_avg": 36.006,
+      "ci_low": 9.42,
+      "ci_high": 61.892,
+      "challenges": 125,
+      "challenges_expected_avg": 80.489,
+      "overturn_rate": 0.584
+    }
+  ],
+  "worst_catchers": [
+    {
+      "name": "Luis Campusano",
+      "win_pct_above_avg": -17.908,
+      "ci_low": -44.126,
+      "ci_high": 6.168,
+      "challenges": 85,
+      "challenges_expected_avg": 62.157,
+      "overturn_rate": 0.565
+    },
+    {
+      "name": "Francisco Alvarez",
+      "win_pct_above_avg": -18.14,
+      "ci_low": -42.57,
+      "ci_high": 8.774,
+      "challenges": 94,
+      "challenges_expected_avg": 84.067,
+      "overturn_rate": 0.479
+    },
+    {
+      "name": "Gabriel Moreno",
+      "win_pct_above_avg": -19.599,
+      "ci_low": -50.332,
+      "ci_high": 12.088,
+      "challenges": 82,
+      "challenges_expected_avg": 102.302,
+      "overturn_rate": 0.622
+    },
+    {
+      "name": "Endy Rodr\u00edguez",
+      "win_pct_above_avg": -20.3,
+      "ci_low": -33.229,
+      "ci_high": -9.723,
+      "challenges": 24,
+      "challenges_expected_avg": 31.332,
+      "overturn_rate": 0.375
+    },
+    {
+      "name": "Carter Jensen",
+      "win_pct_above_avg": -22.65,
+      "ci_low": -46.344,
+      "ci_high": 2.987,
+      "challenges": 94,
+      "challenges_expected_avg": 115.967,
+      "overturn_rate": 0.489
+    }
+  ],
+  "split_half_corr_batter": 0.164,
+  "split_half_corr_catcher": 0.139
+}

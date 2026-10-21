@@ -1,0 +1,13 @@
+count,role,tau_actual,tau_optimal
+0-0,batter,3.067,3.816
+0-0,catcher,1.963,1.885
+1-1,batter,2.717,3.189
+1-1,catcher,1.819,1.55
+0-2,batter,2.234,2.335
+0-2,catcher,1.62,1.093
+2-2,batter,1.407,0.888
+2-2,catcher,1.279,0.316
+3-1,batter,1.488,1.001
+3-1,catcher,1.313,0.376
+3-2,batter,0.546,-0.507
+3-2,catcher,0.925,-0.44
