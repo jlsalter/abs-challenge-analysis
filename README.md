@@ -2,7 +2,7 @@
 
 **Jordan Salter** · M.S. Statistics, University of Southern California · October 2026
 
-An analysis of all 1.42 million pitches from the 2025–26 MLB regular seasons and all 10,546 challenges from 2026, the first season of the Automated Ball-Strike (ABS) challenge system. It asks two questions: how did umpires change once their calls could be overturned, and when should a team actually challenge?
+An analysis of pitches from the 2025–26 MLB regular seasons and all 10,546 challenges from 2026, the first season of the Automated Ball-Strike (ABS) challenge system. It asks two questions: how did umpires change once their calls could be overturned, and when should a team actually challenge?
 
 **Methods:** reconciling a measurement change across two data sources · gradient-boosted classification with game-level bootstrap inference · logistic win-probability modeling · a maximum-likelihood psychometric model with a lapse rate · a fixed-point Monte Carlo simulation of 2,429 games · decision analysis under uncertainty. Python (pandas, NumPy, scikit-learn, SciPy, matplotlib).
 
