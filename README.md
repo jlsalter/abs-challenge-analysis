@@ -50,12 +50,11 @@ Every modeling decision and its alternatives are written up in [`METHODS.md`](ME
 <td colspan="2"><img src="figures/02_zone_panels.png" alt="Called-strike probability in 2025, 2026, and the change"><br><sub>Chance of a called strike in 2025 and 2026, and the change between them. Strikes vanished just outside the box; nothing changed inside it.</sub></td>
 </tr>
 <tr>
-<td width="50%"><img src="figures/03_runs_at_stake_by_count.png" alt="Runs at stake by count"><br><sub>A 3-2 call swings 0.61 runs; a 0-0 call swings 0.09.</sub></td>
+<td width="50%"><img src="figures/06_catcher_leaderboard.png" alt="Catcher challenge value leaderboard"><br><sub>Catcher decision value with 90% intervals. Split-half reliability is low (r ≈ 0.14), so one season is a starting point for scouting, not a verdict.</sub></td>
 <td width="50%"><img src="figures/07_team_ranking.png" alt="Team challenge value above average"><br><sub>Team value from challenge decisions above an average team. Only 4 of 30 teams are distinguishable from average after one season.</sub></td>
 </tr>
 <tr>
-<td width="50%"><img src="figures/06_catcher_leaderboard.png" alt="Catcher challenge value leaderboard"><br><sub>Catcher decision value with 90% intervals. Split-half reliability is low (r ≈ 0.14), so one season is a starting point for scouting, not a verdict.</sub></td>
-<td width="50%"><sub><b>What a front office could do with this</b><br><br>• Re-price framing: its spread fell ~44%.<br>• Give players a simple challenge card: aggressive with two strikes or three balls and close-and-late; hold early in counts and in blowouts.<br>• Judge challengers by value added, not overturn rate.<br>• Scout opponents' challenge habits by role and situation.</sub></td>
+<td colspan="2" align="center"><img src="figures/03_runs_at_stake_by_count.png" alt="Runs at stake by count" width="70%"><br><sub>A 3-2 call swings 0.61 runs; a 0-0 call swings 0.09.</sub></td>
 </tr>
 </table>
 
